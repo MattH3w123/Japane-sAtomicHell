@@ -34,6 +34,7 @@ body {
 .container {
     width: 100%;
     height: 100vh;
+    user-select: none;
 }
 
 header {
@@ -283,7 +284,7 @@ section#poczotek {
 }
 
 .img-con-o-1 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -361,7 +362,7 @@ section#cel-us {
 }
 
 .img-con-o-2 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -486,7 +487,7 @@ section#p-manhatan {
 }
 
 .img-con-o-3 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -559,7 +560,7 @@ section#bron {
 }
 
 .img-con-c-o-4 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -692,7 +693,7 @@ section#hiroszima {
 }
 
 .img-con-o-5 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -779,7 +780,7 @@ section#nagasaki {
 }
 
 .img-con-o-6 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
@@ -874,7 +875,7 @@ section#skutki {
 }
 
 .img-con-o-7 img:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     border: 1px solid rgb(172, 0, 0);
 }
 
