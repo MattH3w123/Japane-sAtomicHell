@@ -211,7 +211,7 @@ section#baner {
 
 section#poczotek {
     width: 100%;
-    height: 57vh;
+    height: auto;
     background-color: #121212;
 }
 
@@ -224,8 +224,6 @@ section#poczotek {
     flex-direction: row;
     gap: 20px;
     padding: 20px;
-    overflow-y: overlay;
-    overflow-x: hidden;
 }
 
 .text-con-o-1 {
@@ -279,11 +277,19 @@ section#poczotek {
     left: 0;
     object-fit: cover;
     object-position: center center;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-1 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 section#cel-us {
     width: 100%;
-    height: 59vh;
+    height: auto;
     background-color: #171717;
 }
 
@@ -296,9 +302,6 @@ section#cel-us {
     flex-direction: row;
     gap: 20px;
     padding: 20px;
-    overflow-y: overlay;
-    overflow-x: hidden;
-    position: relative;
 }
 
 .text-con-o-2 {
@@ -352,6 +355,14 @@ section#cel-us {
     left: 0;
     object-fit: cover;
     object-position: center center;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-2 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 .img-con-o-2 .usa-flag {
@@ -394,7 +405,7 @@ section#paralax-3 {
 
 section#p-manhatan {
     width: 100%;
-    height: 60vh;
+    height: auto;
     background-color: #121212;
 }
 
@@ -418,8 +429,6 @@ section#p-manhatan {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    overflow-x: hidden;
-    overflow-y: overlay;
 }
 
 .text-con-o-3 {
@@ -471,12 +480,19 @@ section#p-manhatan {
     left: 0;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-3 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 section#bron {
     width: 100%;
-    min-height: 70vh;
+    min-height: auto;
     background-color: #171717;
 }
 
@@ -537,7 +553,14 @@ section#bron {
     left: 0;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-c-o-4 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 .text-con-c-o-4 {
@@ -587,7 +610,7 @@ section#bron {
 
 section#hiroszima {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: #121212;
 }
 
@@ -611,8 +634,7 @@ section#hiroszima {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    overflow-x: hidden;
-    overflow-y: overlay;
+
 }
 
 .text-con-o-5 {
@@ -664,12 +686,19 @@ section#hiroszima {
     left: 0;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-5 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 section#nagasaki {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: #171717;
 }
 
@@ -693,8 +722,6 @@ section#nagasaki {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    overflow-x: hidden;
-    overflow-y: overlay;
 }
 
 .text-con-o-6 {
@@ -746,12 +773,19 @@ section#nagasaki {
     left: 0;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-6 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 section#skutki {
     width: 100%;
-    min-height: 70vh;
+    min-height: auto;
     background:  linear-gradient(to bottom, #121212, #0d0d0d);
 }
 
@@ -764,8 +798,6 @@ section#skutki {
     align-items: center;
     gap: 20px;
     padding: 30px 20px;
-    overflow-y: overlay;
-    overflow-x: hidden;
 }
 
 .text-con-o-7 {
@@ -836,6 +868,14 @@ section#skutki {
     left: 0;
     object-fit: cover;
     object-position: center center;
+    transition: all .2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-con-o-7 img:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(172, 0, 0);
 }
 
 .img-con-o-7 .kid-mom-atom {
